@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking Form</title>
+    <link rel="stylesheet" href="Appointment.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form-group">
+            <div id="form">
+                <h1 class="text-white text-center">Booking Your Appointment</h1>
+
+                <div id="first-group">
+
+                    <div id="content">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="First name">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="number" id="input-group" placeholder="Phone number">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="Date">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <select id="input-group" style="background-color: rgb(106, 106, 158);">
+                            <option value="">Time</option>
+                            <option value="">9:00 to 12:00</option>
+                            <option value="">12:00 to 3:00</option>
+                            <option value="">3:00 to 6:00</option>
+							<option value="">6:00 to 9:00</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div id="second-group">
+
+                    <div id="content">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="Last name">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="email" id="input-group" placeholder="Email">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="Age">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <select id="input-group" style="background-color: rgb(106, 106, 158);">
+                            <option value="">Specialities</option>
+                            <option value="">Dermatologist</option>
+                            <option value="">Neurologist</option>
+                            <option value="">Neurologist</option>
+                            <option value="">Surgeon</option>
+							<option value="">Pathology</option>
+                            <option value="">General Practitioner</option>
+                            <option value="">Hematologist</option>
+                            <option value="">Cardiologist</option>
+                            <option value="">Obstetricians and gynecologists.</option>
+                        </select>
+                    </div>
+            
+                </div>
+
+                <button type="submit" value="Submit" id="submit-btn">Book Now</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
